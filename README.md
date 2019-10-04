@@ -34,7 +34,7 @@ seguintes especificações:
  - [x] Crie ao menos um método passando uma classe como 
  parâmetro e manipulando os atributos delas
  - [x] Gerar o Tempo em Dias, Meses, Anos
- - [x] Fazer Historico de Gastos em Um Arquivo TXT (CANCELADO)
+ - [x] ~~Fazer Historico de Gastos em Um Arquivo TXT (CANCELADO)~~
  - [x] Metodo que Calcula a Add do Salario
  - [x] Metodo que Calcula as Dispesas
  - [x] Calc Aumento
