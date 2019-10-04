@@ -53,6 +53,21 @@ public class User{
       }
     }
   }
+  // TODO: Metodo que retorna o valor a ser Pago
+  public double payBill(){
+    
+    double seeYou = 0;
+    foreach(double value in _expenses)
+    {
+      seeYou += value;
+    }
+    return seeYou;
+  }
+
+
+
+
+
 }
 
 // foreach (double value in _expenses )       
