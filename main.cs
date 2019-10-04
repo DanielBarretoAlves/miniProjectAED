@@ -6,7 +6,7 @@ class MainClass {
     //   Console.WriteLine("Name: " + item.Name);
     //   Console.WriteLine("Cash: $" + item.Cash);
     //   Console.WriteLine("Salary: $" + item.Salary);
-    Controller soft = new Controller();
+    Controller soft = new Controller(1000.0, 5, 4);
     soft.createUser();
   }
 }

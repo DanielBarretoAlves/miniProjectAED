@@ -17,6 +17,9 @@ public class User{
       _salary = salary;
 
    }
+   public User(){
+
+   }
 
    public string Name 
    {
@@ -33,6 +36,7 @@ public class User{
      get => _salary;
      set => _salary = value;
    }
+   
 
 
    // TODO: Add Dispesas

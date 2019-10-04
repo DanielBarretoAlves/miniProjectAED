@@ -1,9 +1,23 @@
 using System;
 using System.Collections.Generic;
 public class Controller{
+// TODO: Pelo Menos 3 Atributos
+double _saveVal;
+int _payDay;
+int _billsDay;
+int _days = 0;
+int _weeks = 0;
+int _months = 0;
 
+// TODO: Dois Construtores
 public Controller(){
   
+}
+public Controller(double saveVal, int payDay, int billsDay)
+{
+  _saveVal = saveVal;
+  _payDay = payDay;
+  _billsDay = billsDay;
 }
 
 
