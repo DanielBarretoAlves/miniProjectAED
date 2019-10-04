@@ -37,6 +37,7 @@ seguintes especificações:
  - [ ] Fazer Historico de Gastos em Um Arquivo TXT
  - [x] Metodo que Calcula a Add do Salario
  - [x] Metodo que Calcula as Dispesas
+ - [x] Calc Aumento
  
  ## Objective
   
