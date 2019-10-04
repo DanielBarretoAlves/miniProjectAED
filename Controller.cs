@@ -23,8 +23,15 @@ public Controller(){
 
     List<User> userList = new List<User>();
     userList.Add(new User(name, budget, payment));
-    Console.WriteLine(userList[0].Name);
+    // Console.WriteLine(userList[0].Name);
+    userList[0].addBills();
   }
 
 
+  
+
+
 }
+
+
+// TODO: Pegar Gastos do User, Pegar Valor a que deseja salvar, pegar dispesas, calcular o tempo para alcançar o tempo até se alcançar o valor desejado

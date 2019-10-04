@@ -33,4 +33,29 @@ public class User{
      get => _salary;
      set => _salary = value;
    }
+
+
+   // TODO: Add Dispesas
+
+  public void addBills(){
+    bool key = true;
+    while(key != false)
+    {
+      Console.WriteLine("Digite 1 (UM) para Adicionar uma dispesa ou 0 (ZERO) para parar");
+      int action = int.Parse(Console.ReadLine());
+      if(action == 1)
+      {
+        Console.WriteLine("Informe o Valor da dispesa");
+        double val = double.Parse(Console.ReadLine());
+        _expenses.Add(val);
+      }else{
+        key = false;
+      }
+    }
+  }
 }
+
+// foreach (double value in _expenses )       
+//         {       
+//         Console.WriteLine(value);       
+//         }
