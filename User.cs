@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 using  System.Collections.Generic;
 public class User{
   //TODO: Atributes
@@ -7,6 +8,7 @@ public class User{
   double _salary;
   //TODO: Check List How2Work
   List<double> _expenses = new List<double>(); 
+  string path = "storage.txt";
 
 
    //TODO: Constructor
@@ -64,8 +66,16 @@ public class User{
     foreach(double value in _expenses)
     {
       seeYou += value;
+      
     }
     return seeYou;
+  }
+
+  //TODO: Gerar Almento
+  public void getPromotion(double promotion)
+  {
+    double val = _salary * promotion /100;
+    _salary += val;
   }
 
   
