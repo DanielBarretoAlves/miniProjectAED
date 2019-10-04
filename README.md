@@ -25,7 +25,7 @@ seguintes especificações:
 - [x] Duas Classes;
  - [x] Ao menos 3 Atributos para cada clase 
  (com pelo menos 1 getter e Setter);
- - [ ] 3 Métodos cada;
+ - [x] 3 Métodos cada;
  - [x] Ao menos 2 construtores cada (vazio e com parâmetros)
 - [x] Torne a relação das classes uma relação de dependência(
  Uma classe contém a Outra);
@@ -34,7 +34,7 @@ seguintes especificações:
  - [x] Crie ao menos um método passando uma classe como 
  parâmetro e manipulando os atributos delas
  - [x] Gerar o Tempo em Dias, Meses, Anos
- - [ ] Fazer Historico de Gastos em Um Arquivo TXT
+ - [x] Fazer Historico de Gastos em Um Arquivo TXT (CANCELADO)
  - [x] Metodo que Calcula a Add do Salario
  - [x] Metodo que Calcula as Dispesas
  - [x] Calc Aumento
