@@ -77,16 +77,4 @@ public class User{
     double val = _salary * promotion /100;
     _salary += val;
   }
-
-  
-
-
-
-
-
 }
-
-// foreach (double value in _expenses )       
-//         {       
-//         Console.WriteLine(value);       
-//         }

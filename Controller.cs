@@ -26,9 +26,7 @@ public Controller(double saveVal, int payDay, int billsDay)
 
 
 
-  //TODO: User Generator
-  //  var item = new User("Daniel", 1700.95, 700.5);
-  // List<int> numberList = new List<int>(); 
+  //TODO: User Generator 
   public void createUser()
   {
     Console.WriteLine("UserName:");
@@ -44,7 +42,6 @@ public Controller(double saveVal, int payDay, int billsDay)
     userList[0].addBills();
     calcTime();
   }
-
   // TODO: Calc o Tempo Estimado
   public void calcTime()
   {
@@ -64,26 +61,14 @@ public Controller(double saveVal, int payDay, int billsDay)
     {
 
       _days++;
-      // _payDay;
-      // _billsDay;
-      // _days++;
 
-      // Console.WriteLine("Dia" + _days);
-      // PayDay
       if(_days == _payDay)
       {
-        // TODO: Call Method Payday
-        
-        
-
         userList[selectedUser].Cash += userList[selectedUser].Salary;
-        // Console.WriteLine("Cash " + userList[selectedUser].Cash);
-
       }
 
       if(_days == _billsDay)
       {
-        // TODO: Call MethodBills Day
         userList[selectedUser].Cash -= userList[selectedUser].payBill();
 
         
@@ -94,8 +79,7 @@ public Controller(double saveVal, int payDay, int billsDay)
       {
         _months ++;
         _days = 0;
-        // storage = File.CreateText(path);
-        // storage.WriteLine("test");
+       
       }
 
       if(_months == 12)
@@ -113,7 +97,6 @@ public Controller(double saveVal, int payDay, int billsDay)
 
   }
 
-  //TODO: só pq é obrigatorio 3 MethodBills
 
   public void showTime()
   {
@@ -121,54 +104,4 @@ public Controller(double saveVal, int payDay, int billsDay)
     Console.WriteLine("meses " + _months + ", e " + _days + " dias e, " + _years + " Anos");
   }
 
-  
-
-
-  
-
-
 }
-
-
-// TODO: Pegar Gastos do User, Pegar Valor a que deseja salvar, pegar dispesas, calcular o tempo para alcançar o tempo até se alcançar o valor desejado.
-
-// using System;
-// using System.IO;
-
-// class Test 
-// {
-//     public static void Main() 
-//     {
-//         string path = @"c:\temp\MyTest.txt";
-//         // This text is added only once to the file.
-//         if (!File.Exists(path)) 
-//         {
-//             // Create a file to write to.
-//             using (StreamWriter sw = File.CreateText(path)) 
-//             {
-//                 sw.WriteLine("Hello");
-//                 sw.WriteLine("And");
-//                 sw.WriteLine("Welcome");
-//             }	
-//         }
-
-//         // This text is always added, making the file longer over time
-//         // if it is not deleted.
-//         using (StreamWriter sw = File.AppendText(path)) 
-//         {
-//             sw.WriteLine("This");
-//             sw.WriteLine("is Extra");
-//             sw.WriteLine("Text");
-//         }	
-
-//         // Open the file to read from.
-//         using (StreamReader sr = File.OpenText(path)) 
-//         {
-//             string s = "";
-//             while ((s = sr.ReadLine()) != null) 
-//             {
-//                 Console.WriteLine(s);
-//             }
-//         }
-//     }
-// }
