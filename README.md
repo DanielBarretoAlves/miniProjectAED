@@ -38,6 +38,9 @@ seguintes especificações:
  - [x] Metodo que Calcula a Add do Salario
  - [x] Metodo que Calcula as Dispesas
  - [x] Calc Aumento
+ - [ ] Classe Feedback
+ - [ ] Gerar Arquivo Historico
+ 
  
  ## Objective
   
