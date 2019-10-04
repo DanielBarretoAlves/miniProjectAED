@@ -33,10 +33,10 @@ seguintes especificações:
  Lista (Add() ) 
  - [x] Crie ao menos um método passando uma classe como 
  parâmetro e manipulando os atributos delas
- - [ ] Gerar o Tempo em DIAS, Meses, Anos
+ - [x] Gerar o Tempo em Dias, Meses, Anos
  - [ ] Fazer Historico de Gastos em Um Arquivo TXT
- - [ ] Metodo que Calcula a Add do Salario
- - [ ] Metodo que Calcula as Dispesas
+ - [x] Metodo que Calcula a Add do Salario
+ - [x] Metodo que Calcula as Dispesas
  
  ## Objective
   
