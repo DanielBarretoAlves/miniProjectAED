@@ -57,21 +57,26 @@ public Controller(double saveVal, int payDay, int billsDay)
     while(userList[selectedUser].Cash < _saveVal)
     {
 
-      double _saveVal;
+      _days++;
       // _payDay;
       // _billsDay;
       // _days++;
 
+      // Console.WriteLine("Dia" + _days);
       // PayDay
       if(_days == _payDay)
       {
         // TODO: Call Method Payday
+
+        userList[selectedUser].Cash += userList[selectedUser].Salary;
+        // Console.WriteLine("Cash " + userList[selectedUser].Cash);
 
       }
 
       if(_days == _billsDay)
       {
         // TODO: Call MethodBills Day
+        userList[selectedUser].Cash -= userList[selectedUser].payBill();
       }
 
       //_months
@@ -82,8 +87,12 @@ public Controller(double saveVal, int payDay, int billsDay)
       }
 
     }
+    Console.Clear();
+    Console.WriteLine("meses " + _months + ", e " + _days + " dias e, " + _years + " Anos");
 
   }
+
+  
 
 
   
